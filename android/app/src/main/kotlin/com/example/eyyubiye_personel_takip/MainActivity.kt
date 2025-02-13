@@ -1,4 +1,4 @@
-package com.example.eyyubiye_personel_takip
+package com.example.ses_ver
 
 import io.flutter.embedding.android.FlutterActivity
 

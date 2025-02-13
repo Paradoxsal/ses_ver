@@ -1,3 +1,5 @@
+import 'dart:math';
+
 class DeviceModel {
   final String id;
   final String name;
@@ -24,6 +26,6 @@ class DeviceModel {
 
   static double _calculateDistance(int rssi) {
     // RSSI değerinden yaklaşık mesafe hesaplama
-    return pow(10, (-69 - (rssi)) / (10 * 2)).toDouble();
+    return pow(10, (-69 - rssi) / (10 * 2)).toDouble();
   }
 }

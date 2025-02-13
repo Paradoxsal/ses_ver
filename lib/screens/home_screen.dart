@@ -1,4 +1,3 @@
-// lib/screens/home_screen.dart
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../widgets/common/custom_button.dart';
@@ -72,7 +71,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   CustomButton(
                     onPressed: () => Navigator.pushNamed(context, '/receiver'),
                     text: 'Alıcı Modu',
-                    icon: Icons.receiver,
+                    icon: Icons.wifi_tethering, // Düzeltildi
                   ),
                 ],
               ),

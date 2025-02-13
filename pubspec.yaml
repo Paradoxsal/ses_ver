@@ -47,6 +47,7 @@ dependencies:
   flutter_blue_plus: ^1.35.2
   nearby_connections: ^4.2.0
   record: ^5.2.0
+  flutter_local_notifications: ^18.0.1
 
 dev_dependencies:
   flutter_test:

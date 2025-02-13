@@ -6,22 +6,20 @@ plugins {
 }
 
 android {
-    namespace "com.example.eyyubiye_personel_takip"
-    compileSdk 34 // 33'ten 34'e çıkardık.
+    namespace "com.example.ses_ver" // Uygulamanızın paket adını buraya yazın
+    compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.eyyubiye_personel_takip"
-        minSdk 21
+        applicationId "com.example.ses_ver" // Uygulamanızın paket adını buraya yazın
+        minSdk 23
         targetSdk 33
         versionCode 1
         versionName "1.0"
-
         multiDexEnabled true
     }
 
     buildTypes {
         release {
-            // shrinkResources ve minifyEnabled kullanılıyor
             minifyEnabled true
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
@@ -38,6 +36,7 @@ android {
     }
 }
 
+
 flutter {
-    source = "../.."
+    source = "../.." // Flutter kaynak dosyasının doğru yolu
 }

@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.eyyubiye_personel_takip">
+    package="com.example.ses_ver">
 
     <!-- Bluetooth izinleri -->
     <uses-permission android:name="android.permission.BLUETOOTH" />
